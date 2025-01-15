@@ -1,7 +1,20 @@
 # About
 
-This is a repo for following a tutorial on [Strapi's Blog](https://strapi.io/blog/form-validation-in-typescipt-projects-using-zod-and-react-hook-forma). I was able to follow this tutorial _mostly_ to the letter. The only exception was that I needed to uninstall and re-install `react` and `react-dom` because the versions that came down with the template from the original author relied on release candidates (very bleeding edge 🔪🩸) and conflicted with [@hookforms/resolves](https://github.com/react-hook-form/resolvers) which was happy to take the the latest
+This is a repo for following a tutorial on [Strapi's Blog](https://strapi.io/blog/form-validation-in-typescipt-projects-using-zod-and-react-hook-forma) which teaches how to use Zod and react hook form. The project is built with NextJS and serves as a simple widget. This demonstration is for a simple "Sign-Up" page, but I think this could grow to encompass a few other forms.
+
+I was able to follow this tutorial _mostly_ to the letter. The only exception was that I needed to uninstall and re-install `react` and `react-dom` because the versions that came down with the template from the original author relied on release candidates (very bleeding edge 🔪🩸) and conflicted with [@hookforms/resolves](https://github.com/react-hook-form/resolvers) which was happy to take the the latest
 versions of the libraries 👉 "react": "^18.3.1", "react-dom": "^18.3.1".
+
+```
+# Install Deps
+npm i
+
+# Run Code
+npm run dev
+```
+
+## Snapshot of the Form
+<img src='docs/img/ScreenShot.png' width='50%'/>
 
 <details closed>
 <summary>
